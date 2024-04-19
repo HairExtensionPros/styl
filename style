@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-image: url("https://images.pexels.com/photos/6765813/pexels-photo-6765813.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Προσθήκη χρώματος φόντου με διαφάνεια */
+    border-radius: 10px;
+    position: relative;
+    color: #fff; /* Ορισμός χρώματος κειμένου ως λευκό */
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
